@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    background-color:black;
 }
 h1{
     text-align:center;
@@ -8,7 +9,7 @@ h1{
   /*   background-color:#393e46;*/
    background-color:rgb(79, 79, 255);
     color:white;
-    width:199vh;
+    width:202vh;
 }
 div{
     background-color:black;
