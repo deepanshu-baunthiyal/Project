@@ -17,7 +17,7 @@ h1{
    background-color: black;
     color:white;
     height:42vh;
-    background-image:url('/page-images/db.png') ;
+    background-image:url('/db.png') ;
 }
 #pro1 {
     padding-top:30px;
@@ -47,5 +47,5 @@ a{
     background-color:black;
     color:white;
     height:42vh;
-    background-image:url('/page-images/db.png') ;
+    background-image:url('/db.png') ;
 }
