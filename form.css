@@ -54,7 +54,7 @@ div{
     padding-top:25vh;
     margin-left:40vh;
     border-radius:15px;
-    background-image:url('page-images/bg1.jpg')
+    background-image:url('/bg1.jpg')
 }
 button{
     font-size:20px;
