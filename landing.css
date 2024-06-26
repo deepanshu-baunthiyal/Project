@@ -51,7 +51,7 @@ nav ul li a {
 
 /* Hero section styling */
 .hero {
-    background: url('/page-images/logo.png') no-repeat center center/cover;
+    background: url('/logo.png') no-repeat center center/cover;
     height: 95vh;
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@ nav ul li a {
     transform: scale(0.8);
 }
 .box{
-    background-image:url('/HTML/page-images/logo.jpg');
+    background-image:url('/logo.jpg');
 }
 h1{
     color:black;
