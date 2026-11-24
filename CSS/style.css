@@ -35,3 +35,20 @@ input{
 hr{
     background-color:black;
 }
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  nav {
+    gap: 15px;
+    padding: 16px;
+  }
+
+  nav a:first-child {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
