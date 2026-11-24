@@ -1,0 +1,308 @@
+body{
+    margin:0;
+    padding:0;
+}
+#logo{
+    height:75px;
+    width:100px;
+    background-color:black;
+}
+.nav{
+    background-color:black; 
+    display:flex;
+    height:72px;  
+} 
+
+#help{
+    color:white;
+    padding-right:130vh;
+    
+}
+#display{
+    align-items: center;
+    display:flex;
+    list-style-type: none;
+}
+#submit{
+    padding-right:10px;
+}
+.req1{
+    font-size:19px;
+    background-color: rgba(85, 12, 255, 0.829);
+    color:white;
+    border-radius:5px;
+}
+.req1:hover{
+    opacity: 0.5;
+}
+#sign{
+    color:white;
+    text-decoration: none;
+}
+.req{
+    font-size: 17px;
+    border:1px solid white;
+    color:white;
+    background-color:rgb(71, 71, 71);
+}
+.req:hover{
+    opacity: 0.5;
+}
+header{
+    height:30vh;
+    background-color:rgb(208, 184, 230);
+    text-align: center;
+    padding-top:30px;
+}
+.content{
+    font-size: 40px;
+}
+.search{
+   height:25px;
+   width:60vh;
+}
+main{
+    height:130vh;
+   display: flex;
+
+}
+#maindiv{background-color:white;
+    height:128vh;
+    width:200vh;
+}
+#left{
+    background-color:wheat;
+    color:rgb(56, 56, 214);
+    font-size: 20px;
+    border-radius:7px;
+    cursor: pointer;
+    transition: all 0.3s ;
+   
+}
+#left:hover {
+    background:transparent;
+    transform: scale(0.8);
+}
+#right{
+    background-color:wheat;
+    color:rgb(56, 56, 214);
+    font-size: 20px;
+    border-radius:7px;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+#right:hover{
+    background-color:transparent;
+    transform: scale(0.8)
+}
+p{
+    font-size: 18px;
+}
+/*Rooms Available*/
+#first{
+    background-color:wheat;
+    height:50vh;
+    width:104vh;
+    font-size: 40px;
+    display:flex;
+   justify-content: center;
+    padding-top:100px;
+    border:0.5px solid black;
+}
+#inrfirst{
+    background-color:wheat;
+    height:130px;
+    width:300px;   
+}
+#img1{
+    height:110px;
+    border-radius:15px;
+    padding-right:10px;
+}
+#rooms{
+    text-decoration: none;
+    color:rgb(56, 56, 214);
+}
+/*Details*/
+#second{
+    background-color:wheat;
+    height:52vh;
+    width:104vh;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    padding-top:100px;
+    border:0.5px solid black;
+}
+#inrsecond{
+    background-color:wheat;
+    height:130px;
+    width:300px;
+    
+}
+#img2{
+    height:110px;
+    width:120px;
+    border-radius:15px;
+    padding-right:10px;
+}
+#details{
+    text-decoration: none;
+    color:rgb(56, 56, 214);
+}
+/*Gym Available*/
+#third{
+    background-color:wheat;
+    height:50vh;
+    width:104vh;
+    font-size: 40px;
+   margin-left: 104vh;
+   margin-top:-129.9vh;
+   display:flex;
+   justify-content: center;
+    padding-top:100px;
+    border:0.5px solid black;
+}
+#inrthird{
+    background-color:wheat;
+    height:130px;
+    width:300px;
+}
+#img3{
+    height:110px;
+    border-radius:15px;
+    padding-right:10px;
+}
+#Gym{
+    text-decoration: none;
+    color:rgb(56, 56, 214);
+}
+/*Food Menu*/
+#four{
+    background-color:wheat;
+    height:52vh;
+    width:104vh;
+   margin-left: 104vh;
+   font-size: 40px;
+   display:flex;
+   justify-content: center;
+    padding-top:100px;
+    border:0.5px solid black;
+}
+#inrfour{
+    background-color:wheat;
+    height:130px;
+    width:300px;
+}
+#img4{
+    height:110px;
+    border-radius:15px;
+    padding-right:10px;
+}
+#food{
+    text-decoration: none;
+    color:rgb(56, 56, 214);
+}
+footer{
+    height:8vh;
+    background-color:black;
+    color:white;
+    padding-bottom:30vh;
+    margin-top:-20px;
+    
+}
+#item{
+    font-size:24px;
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+}
+.box{
+    display: flex;
+}
+/*rooms*/
+#last{
+    font-size:27px;
+    padding-left:30px;
+    padding-top:-10px;
+}
+/*Resources*/
+#last2{
+    font-size:27px;
+    padding-left:30px;
+    padding-top:24px;
+}
+/*Community*/
+#last5{
+    font-size: 27px;
+    padding-left:30px;
+    padding-top:38px;
+}
+/*Contact us*/
+#last9{
+    font-size:27px;
+    padding-left:15vh;
+    padding-top:-10px;
+}
+#last1{
+    font-size:15px;
+    padding-left:30px;
+    padding-top:10px;
+}
+#last3{
+    font-size: 15px;
+    padding-left:30px;
+    padding-top:10px;
+}
+#last4{
+    font-size: 15px;
+    padding-left:30px;
+    padding-top:9px;
+}
+#last6{
+    font-size: 15px;
+    padding-left:30px;
+    padding-top:10px;
+}
+#last7{
+    font-size: 15px;
+    padding-left:30px;
+    padding-top:9px;
+}
+#last8{
+    font-size: 15px;
+    padding-left:30px;
+    padding-top:8px;
+}
+#last10{
+    font-size:15px;
+    padding-left:15vh;
+}
+#inr{
+    list-style-type:none;
+}
+#inr1{
+    list-style-type:none;
+}
+#inr2{
+    list-style-type: none;
+    
+}
+#inr3{
+    list-style-type:none;
+}
+#anime{
+    transition: background 1.5s;
+    animation: move 1.5s infinite;
+}
+@keyframes move {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,9 @@
+body{
+    text-align:center;
+    background-color: #393e46;
+    color:white;
+}
+img{
+    height:50vh;
+    border:5px solid black;
+}

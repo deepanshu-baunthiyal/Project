@@ -1,0 +1,13 @@
+#child{
+    background-color:green;
+    position:relative;
+}
+#child2{
+    background-color:blue;
+}
+div{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+}
